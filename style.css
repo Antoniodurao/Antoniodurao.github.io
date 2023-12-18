@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    text-align: left;
+    color: red;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-color: white;
+    font-size: larger;
+    font-family: 'Abril Fatface', serif;
+    box-sizing: border-box;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+}
+
+header div {
+    position: fixed;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    z-index: 1;
+}
+
+audio {
+    overflow: hidden;
+    display: flex;
+}
+
+.contain {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sounds h2 {
+    font-family: 'Abril Fatface', serif;
+}
+
+
+.sounds {
+    margin-top: 13vh;
+    display: inline-block;
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    vertical-align: text-top;
+}
+
